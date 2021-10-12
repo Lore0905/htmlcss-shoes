@@ -1,0 +1,52 @@
+*{
+    margin:0px;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Rubik Mono One;
+}
+
+/* MAIN */
+
+/* COMMONS */
+
+.shoes{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.img-description{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.img-description > h2{
+    text-transform:uppercase;
+    color: yellow;
+    font-weight: 800;  
+    font-size: 40px;
+}
+
+
+/* END COMMONS */
+
+/* colore background section 1 */
+.shoes.uno{
+   background-color: red;
+}
+/* colore background section 2 */
+.shoes.due{
+    background-color: green;
+ }
+ /* colore background section 3 */
+ .shoes.tre{
+    background-color:yellow;
+ }
+ #green{
+     color: green;
+ }
+
+/* END MAIN */
